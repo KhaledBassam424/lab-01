@@ -1,90 +1,4 @@
-@media (min-width: 480px) and (max-width: 767px){
-    #a {
-        height: 75px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: solid 2px black;
-        background-color: gray;
-
-    }
-
-    #b{
-        height: 150px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: solid 2px black;
-        background-color: rgb(192, 41, 41);
-    } 
-    #two1{
-        float: left;
-        height: 250px;
-        width: 230px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: solid 1px black;
-        background-color: hotpink;
-    }
-
-
-#two2{
-    float: right;
-    height: 250px;
-    width: 230px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px black;
-    background-color: hotpink;
-}
-#flo2{
-    clear: both;
-}
-
-#three1{
-    float: left;
-    height: 250px;
-    width: 230px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px black;
-    background-color: rgb(24, 60, 221);
-
-}
-
-#three2{
-    float: right;
-    height: 250px;
-    width: 230px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 1px black;
-    background-color: rgb(24, 60, 221);
-
-}
-
-
-
-#flo3{
-    clear: both;
-}
-
-#i{
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid 2px black;
-    background-color: rgba(235, 93, 11, 0.61);
-
-    }  
-}
-
-@media screen and (min-width: 768px) and (max-width: 960px){
+@media screen and (min-width: 768px) {
 
     #container{
         max-width: 960px;
@@ -114,7 +28,7 @@
 
 #c{
     float: left;
-    width: 270px;
+    width: calc(100% - 580px);
     height: 200px;
     border: solid 2px black;
     background-color: #3c415c;
@@ -125,8 +39,8 @@
 }
 
 #d{
-    float: right;
-    width: 270px;
+    float: left;
+    width: calc(100% - 593px);
     height: 200px;
     border: solid 2px black;
     background-color: #288334;
@@ -138,7 +52,7 @@
 #i{
     height: 143px;
     float: right;
-    width: 545px;
+    width: calc(100% - 206px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,4 +61,91 @@
 
 }
 
+}
+
+
+@media (min-width: 480px) and (max-width: 767px){
+    #a {
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px black;
+        background-color: gray;
+
+    }
+
+    #b{
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px black;
+        background-color: rgb(192, 41, 41);
+    } 
+    #two1{
+        float: left;
+        height: 250px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px black;
+        background-color: hotpink;
+    }
+
+
+#two2{
+    float: right;
+    height: 250px;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    background-color: hotpink;
+}
+#flo2{
+    clear: both;
+}
+
+#three1{
+    float: left;
+    height: 250px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    background-color: rgb(24, 60, 221);
+
+}
+
+#three2{
+    float: right;
+    height: 250px;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    background-color: rgb(24, 60, 221);
+
+}
+
+
+
+#flo3{
+    clear: both;
+}
+
+#i{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px black;
+    background-color: rgba(235, 93, 11, 0.61);
+
+    }  
 }
