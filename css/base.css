@@ -1,18 +1,24 @@
-@media (min-width: 480px) and (max-width: 767px){
+*{
+    box-sizing: border-box;
+}
+
+
+
+@media screen and ( min-width: 768px ){
 
     body{
-        background-color: rosybrown;
-        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        
     }
 
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px){
+
 
     body{
-        background-color: rosybrown;
-        font-family: 'Courier New', Courier, monospace;
+        width: 100%;
+        
     }
-
 }

@@ -1,37 +1,136 @@
 
-
-
-@media screen and (min-width: 768px) {
-
-
-    .e, .f, .g, .h{
+.aa{
+    height: 75px;
+    background-color: #ff7a00;
     
-        float: left;
-        height: 250px;
-        width: 19.2%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: solid 2px black;
-        background-color: hotpink;
-    }
-
-
-
-
+   
 }
 
-@media (min-width: 480px) and (max-width: 767px){
+.bb{
+    height: 150px;
+    background-color: rgb(192, 41, 41);
+}    
+ .dd{
+    height: 125px;
+    background-color: greenyellow
+}
 
-    .one{
-        height: 125px;
-        border: solid 2px black;
-        background-color: greenyellow;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+.cc{
+    height: 125px;
+    background-color: #e98c13;
+    
+}
 
+.ee{
+ height: 250px;
+ background-color: #e4d3cf;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.ff{
+ height: 250px;
+ background-color: #b67162 ;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.gg{
+height: 250px;
+background-color: #e84545;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hh{
+height: 250px;
+background-color: #7eca9c;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.ii{
+    height: 80px;
+    background-color: #387c6d;
+}
+
+
+
+@media screen and ( min-width: 768px ){
+
+    .cc{
+        height: 200px;
+        background-color: #ffc93c;
+        
+        
+    }
+    
+    .dd{
+        height: 200px;
+        background-color: #9c3d54;
     }
 
+    ee{
+        height: 250px;
+        background-color: #184d47;
+    }
+    
+    .ff{
+        height: 250px;
+        background-color: #fad586;
+    }
+    
+    .gg{
+        height: 250px;
+        background-color: #864000;
+    }
+    
+    .hh{
+        height: 250px;
+        background-color: #d44000;
+    }
+}
+
+
+@media screen and (min-width: 960px){
+
+    .cc{
+        height: 200px;
+        background-color: #f6dfeb;
+        
+        
+    }
+    
+    .dd{
+        height: 200px;
+        background-color: #e4bad4;
+       
+    }
+
+    .ee{
+        height: 250px;
+        background-color: #810000;
+    }
+    
+    .ff{
+        height: 250px;
+        background-color: #865858;
+    }
+    
+    .gg{
+        height: 250px;
+        background-color: #9b3675;
+    }
+    
+    .hh{
+        height: 250px;
+        background-color: #d44000;
+    }
+
+    
 
 }
